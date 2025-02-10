@@ -1,1 +1,1 @@
-"This repository contains Jenkins node scripts and configurations for automating CI/CD workflows."
+"This repository contains configurations and scripts for setting up and managing Jenkins nodes."
