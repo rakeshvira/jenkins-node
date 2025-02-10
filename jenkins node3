@@ -1,0 +1,12 @@
+node
+{
+    stage "1. build stage"
+    sh echo "build stage"
+    sh echo "building the first stage on = `date`"
+    sh mkdir -p inbound
+    
+    stage "2. testing stage"
+    sh echo "testing stage"
+    sh echo "verify and test the folder created or not"
+    sh "ls"
+}
